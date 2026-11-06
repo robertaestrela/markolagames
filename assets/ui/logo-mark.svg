@@ -1,0 +1,53 @@
+<svg width="240" height="240" viewBox="0 0 240 240" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <path id="band" d="M56 134 C 48 74, 82 30, 120 30 C 158 30, 192 74, 184 134"/>
+    <path id="hair" d="M64 124 C 54 104, 54 82, 64 66 C 68 54, 80 46, 92 46 C 98 37, 112 32, 124 36 C 136 31, 152 35, 160 45 C 172 49, 181 62, 182 76 C 186 92, 182 112, 174 124 C 171 112, 166 104, 158 100 C 159 110, 155 117, 147 121 C 145 111, 139 105, 131 103 C 131 113, 125 119, 117 121 C 115 111, 109 105, 101 105 C 99 115, 91 121, 83 123 C 83 113, 79 107, 73 105 C 70 112, 67 118, 64 124 Z"/>
+    <path id="face" d="M70 110 C 78 98, 162 98, 170 110 L 170 146 C 170 180, 150 206, 120 206 C 90 206, 70 180, 70 146 Z"/>
+    <rect id="cupL" x="42" y="118" width="32" height="56" rx="15"/>
+    <rect id="cupR" x="166" y="118" width="32" height="56" rx="15"/>
+  </defs>
+
+  <!-- sticker border -->
+  <g fill="#FEFEFE" stroke="#FEFEFE" stroke-width="20" stroke-linejoin="round" stroke-linecap="round">
+    <use href="#hair"/><use href="#face"/><use href="#cupL"/><use href="#cupR"/>
+  </g>
+  <use href="#band" stroke="#FEFEFE" stroke-width="40" stroke-linecap="round"/>
+
+  <!-- face -->
+  <use href="#face" fill="#F3C2A2" stroke="#0D0D0D" stroke-width="6" stroke-linejoin="round"/>
+  <ellipse cx="88" cy="168" rx="9" ry="5.5" fill="#F2A99A"/>
+  <ellipse cx="152" cy="168" rx="9" ry="5.5" fill="#F2A99A"/>
+
+  <!-- hair: wavy chestnut, messy fringe -->
+  <use href="#hair" fill="#7A4A2A" stroke="#0D0D0D" stroke-width="6" stroke-linejoin="round"/>
+  <path d="M78 70 C 84 60, 94 56, 104 58 M112 50 C 120 44, 132 44, 140 48 M148 56 C 158 58, 166 66, 170 76 M92 88 C 100 80, 110 78, 120 82 M132 80 C 142 78, 152 82, 158 90" stroke="#A8693F" stroke-width="5" stroke-linecap="round"/>
+
+  <!-- headset band -->
+  <use href="#band" stroke="#0D0D0D" stroke-width="22" stroke-linecap="round"/>
+  <use href="#band" stroke="#F4F4F8" stroke-width="11" stroke-linecap="round"/>
+
+  <!-- ear cups: white with glowing violet rim -->
+  <use href="#cupL" fill="#F4F4F8" stroke="#0D0D0D" stroke-width="6"/>
+  <use href="#cupR" fill="#F4F4F8" stroke="#0D0D0D" stroke-width="6"/>
+  <rect x="50" y="128" width="16" height="36" rx="8" fill="#9B4DFF" stroke="#0D0D0D" stroke-width="3"/>
+  <rect x="174" y="128" width="16" height="36" rx="8" fill="#9B4DFF" stroke="#0D0D0D" stroke-width="3"/>
+  <path d="M55 135 L 55 146 M179 135 L 179 146" stroke="#D2B0FF" stroke-width="3.5" stroke-linecap="round"/>
+
+  <!-- thick raised eyebrows (wink side lower) -->
+  <path d="M84 126 C 91 118, 104 117, 112 121 L 110 127 C 102 124, 93 126, 87 131 Z" fill="#4B2C1A" stroke="#0D0D0D" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M156 118 C 149 109, 136 108, 128 112 L 129 118 C 137 116, 147 117, 154 123 Z" fill="#4B2C1A" stroke="#0D0D0D" stroke-width="2.5" stroke-linejoin="round"/>
+
+  <!-- eyes: wink + wide open -->
+  <path d="M89 143 C 94 137, 104 137, 109 143" stroke="#0D0D0D" stroke-width="5" stroke-linecap="round"/>
+  <ellipse cx="140" cy="139" rx="9" ry="10.5" fill="#FEFEFE" stroke="#0D0D0D" stroke-width="4"/>
+  <circle cx="141" cy="140" r="5" fill="#3A2214"/>
+  <circle cx="143" cy="137.5" r="1.8" fill="#FEFEFE"/>
+
+  <!-- nose -->
+  <path d="M114 152 C 118 157, 123 157, 127 152" stroke="#0D0D0D" stroke-width="4.5" stroke-linecap="round"/>
+
+  <!-- huge open-mouthed laugh with top teeth -->
+  <path d="M90 164 C 96 156, 144 156, 150 164 C 149 188, 136 200, 120 200 C 104 200, 91 188, 90 164 Z" fill="#3B1626" stroke="#0D0D0D" stroke-width="5" stroke-linejoin="round"/>
+  <path d="M95 163 C 107 159, 133 159, 145 163 L 144 171 C 132 167.5, 108 167.5, 96 171 Z" fill="#FEFEFE"/>
+  <path d="M104 192 C 111 184, 129 184, 136 192 C 130 198, 110 198, 104 192 Z" fill="#E8838F"/>
+</svg>
